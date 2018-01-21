@@ -1,0 +1,13 @@
+name: tweet-to-mastodon-copier
+version: 0.1.0
+
+authors:
+  - Bryce Kerley <bkerley@brycekerley.net>
+
+targets:
+  tweet-to-mastodon-copier:
+    main: src/tweet-to-mastodon-copier.cr
+
+crystal: 0.24.1
+
+license: MIT
