@@ -1,3 +1,3 @@
-module Tweet::To::Mastodon::Copier
+module TweetToMastodonCopier
   VERSION = "0.1.0"
 end

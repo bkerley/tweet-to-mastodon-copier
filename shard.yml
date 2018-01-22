@@ -11,3 +11,12 @@ targets:
 crystal: 0.24.1
 
 license: MIT
+
+dependencies:
+  mastodon:
+    github: decors/mastodon.cr
+  crystweet:
+    github: bkerley/crystweet
+    commit: beeb9f3
+  dotenv:
+    github: gdotdesign/cr-dotenv
