@@ -14,9 +14,10 @@ license: MIT
 
 dependencies:
   mastodon:
-    github: decors/mastodon.cr
+    github: bkerley/mastodon.cr
+    branch: bk-mastodon-213
   crystweet:
     github: bkerley/crystweet
-    commit: beeb9f3
+    commit: bk-post-form
   dotenv:
     github: gdotdesign/cr-dotenv
