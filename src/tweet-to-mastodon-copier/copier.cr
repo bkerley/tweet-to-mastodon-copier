@@ -75,7 +75,9 @@ module TweetToMastodonCopier
     end
 
     private def upload(url)
-      filename_match = /(\w+\.\w\w\w):?\w*$/.match(url)
+      pp url
+      filename_match = /(\w+\.\w\w\w):?[\w?=]*$/.match(url)
+      pp filename_match
       return nil unless filename_match && filename_match[1].is_a? String
       filename = filename_match[1]
       media_attachment = nil
